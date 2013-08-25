@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mainLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/createRootfsTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="30"
+	        android:text="Select Rootfs to Create"/>
+	
+	    <Spinner
+	        android:id="@+id/createRootfsSpinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <Button
+	        android:id="@+id/createRootfsButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Create New Rootfs" />
+	
+	    <TextView
+	        android:id="@+id/launchRootfsTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="30"
+	        android:text="Select Rootfs to Launch"/>
+	
+	    <Spinner
+	        android:id="@+id/launchRootfsSpinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:spinnerMode="dropdown" />
+	
+	    <CheckBox
+	        android:id="@+id/fakeRootCheckBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Launch as Fake Root" />
+	
+	    <Button
+	        android:id="@+id/launchRootfsButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Launch Rootfs" />
+	
+	    <TextView
+	        android:id="@+id/deleteRootfsTextView"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="30"
+	        android:text="Select Rootfs to Remove"/>
+	
+	    <Spinner
+	        android:id="@+id/deleteRootfsSpinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <Button
+	        android:id="@+id/deleteRootfsButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Delete Rootfs" />
+	
+	</LinearLayout>
+	
+</ScrollView>
